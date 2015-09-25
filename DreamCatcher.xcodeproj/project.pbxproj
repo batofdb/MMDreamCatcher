@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		471285B11BA6713100414E0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 471285B01BA6713100414E0F /* main.m */; };
+		471285B41BA6713100414E0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 471285B31BA6713100414E0F /* AppDelegate.m */; };
+		471285BA1BA6713100414E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471285B81BA6713100414E0F /* Main.storyboard */; };
+		471285BC1BA6713100414E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471285BB1BA6713100414E0F /* Images.xcassets */; };
+		471285BF1BA6713100414E0F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471285BD1BA6713100414E0F /* LaunchScreen.xib */; };
+		471285CB1BA6713100414E0F /* DreamCatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 471285CA1BA6713100414E0F /* DreamCatcherTests.m */; };
+		471285D61BA6723700414E0F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471285D51BA6723700414E0F /* ListViewController.m */; };
+		471285D91BA75F2C00414E0F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471285D81BA75F2C00414E0F /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		471285C51BA6713100414E0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 471285A31BA6713100414E0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471285AA1BA6713100414E0F;
+			remoteInfo = DreamCatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		471285AB1BA6713100414E0F /* DreamCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471285AF1BA6713100414E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471285B01BA6713100414E0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		471285B21BA6713100414E0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		471285B31BA6713100414E0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		471285B91BA6713100414E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		471285BB1BA6713100414E0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		471285BE1BA6713100414E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		471285C41BA6713100414E0F /* DreamCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		471285C91BA6713100414E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471285CA1BA6713100414E0F /* DreamCatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamCatcherTests.m; sourceTree = "<group>"; };
+		471285D41BA6723700414E0F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		471285D51BA6723700414E0F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		471285D71BA75F2C00414E0F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		471285D81BA75F2C00414E0F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471285A81BA6713100414E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471285C11BA6713100414E0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		471285A21BA6713100414E0F = {
+			isa = PBXGroup;
+			children = (
+				471285AD1BA6713100414E0F /* DreamCatcher */,
+				471285C71BA6713100414E0F /* DreamCatcherTests */,
+				471285AC1BA6713100414E0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		471285AC1BA6713100414E0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471285AB1BA6713100414E0F /* DreamCatcher.app */,
+				471285C41BA6713100414E0F /* DreamCatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471285AD1BA6713100414E0F /* DreamCatcher */ = {
+			isa = PBXGroup;
+			children = (
+				471285B21BA6713100414E0F /* AppDelegate.h */,
+				471285B31BA6713100414E0F /* AppDelegate.m */,
+				471285B81BA6713100414E0F /* Main.storyboard */,
+				471285BB1BA6713100414E0F /* Images.xcassets */,
+				471285BD1BA6713100414E0F /* LaunchScreen.xib */,
+				471285AE1BA6713100414E0F /* Supporting Files */,
+				471285D41BA6723700414E0F /* ListViewController.h */,
+				471285D51BA6723700414E0F /* ListViewController.m */,
+				471285D71BA75F2C00414E0F /* DetailViewController.h */,
+				471285D81BA75F2C00414E0F /* DetailViewController.m */,
+			);
+			path = DreamCatcher;
+			sourceTree = "<group>";
+		};
+		471285AE1BA6713100414E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				471285AF1BA6713100414E0F /* Info.plist */,
+				471285B01BA6713100414E0F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		471285C71BA6713100414E0F /* DreamCatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				471285CA1BA6713100414E0F /* DreamCatcherTests.m */,
+				471285C81BA6713100414E0F /* Supporting Files */,
+			);
+			path = DreamCatcherTests;
+			sourceTree = "<group>";
+		};
+		471285C81BA6713100414E0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				471285C91BA6713100414E0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471285AA1BA6713100414E0F /* DreamCatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471285CE1BA6713100414E0F /* Build configuration list for PBXNativeTarget "DreamCatcher" */;
+			buildPhases = (
+				471285A71BA6713100414E0F /* Sources */,
+				471285A81BA6713100414E0F /* Frameworks */,
+				471285A91BA6713100414E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamCatcher;
+			productName = DreamCatcher;
+			productReference = 471285AB1BA6713100414E0F /* DreamCatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		471285C31BA6713100414E0F /* DreamCatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471285D11BA6713100414E0F /* Build configuration list for PBXNativeTarget "DreamCatcherTests" */;
+			buildPhases = (
+				471285C01BA6713100414E0F /* Sources */,
+				471285C11BA6713100414E0F /* Frameworks */,
+				471285C21BA6713100414E0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				471285C61BA6713100414E0F /* PBXTargetDependency */,
+			);
+			name = DreamCatcherTests;
+			productName = DreamCatcherTests;
+			productReference = 471285C41BA6713100414E0F /* DreamCatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471285A31BA6713100414E0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Francis Bato";
+				TargetAttributes = {
+					471285AA1BA6713100414E0F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					471285C31BA6713100414E0F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 471285AA1BA6713100414E0F;
+					};
+				};
+			};
+			buildConfigurationList = 471285A61BA6713100414E0F /* Build configuration list for PBXProject "DreamCatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 471285A21BA6713100414E0F;
+			productRefGroup = 471285AC1BA6713100414E0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471285AA1BA6713100414E0F /* DreamCatcher */,
+				471285C31BA6713100414E0F /* DreamCatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471285A91BA6713100414E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471285BA1BA6713100414E0F /* Main.storyboard in Resources */,
+				471285BF1BA6713100414E0F /* LaunchScreen.xib in Resources */,
+				471285BC1BA6713100414E0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471285C21BA6713100414E0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471285A71BA6713100414E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471285B41BA6713100414E0F /* AppDelegate.m in Sources */,
+				471285B11BA6713100414E0F /* main.m in Sources */,
+				471285D61BA6723700414E0F /* ListViewController.m in Sources */,
+				471285D91BA75F2C00414E0F /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		471285C01BA6713100414E0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471285CB1BA6713100414E0F /* DreamCatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		471285C61BA6713100414E0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471285AA1BA6713100414E0F /* DreamCatcher */;
+			targetProxy = 471285C51BA6713100414E0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		471285B81BA6713100414E0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471285B91BA6713100414E0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		471285BD1BA6713100414E0F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471285BE1BA6713100414E0F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471285CC1BA6713100414E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		471285CD1BA6713100414E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471285CF1BA6713100414E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		471285D01BA6713100414E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		471285D21BA6713100414E0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamCatcher.app/DreamCatcher";
+			};
+			name = Debug;
+		};
+		471285D31BA6713100414E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamCatcher.app/DreamCatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471285A61BA6713100414E0F /* Build configuration list for PBXProject "DreamCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471285CC1BA6713100414E0F /* Debug */,
+				471285CD1BA6713100414E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471285CE1BA6713100414E0F /* Build configuration list for PBXNativeTarget "DreamCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471285CF1BA6713100414E0F /* Debug */,
+				471285D01BA6713100414E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		471285D11BA6713100414E0F /* Build configuration list for PBXNativeTarget "DreamCatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471285D21BA6713100414E0F /* Debug */,
+				471285D31BA6713100414E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 471285A31BA6713100414E0F /* Project object */;
+}
